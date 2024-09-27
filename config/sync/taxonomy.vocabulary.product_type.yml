@@ -1,0 +1,9 @@
+uuid: 6eac815b-0718-444f-9cc5-5eb3000a5363
+langcode: en
+status: true
+dependencies: {  }
+name: 'Product type'
+vid: product_type
+description: Electronics
+weight: 0
+new_revision: false
