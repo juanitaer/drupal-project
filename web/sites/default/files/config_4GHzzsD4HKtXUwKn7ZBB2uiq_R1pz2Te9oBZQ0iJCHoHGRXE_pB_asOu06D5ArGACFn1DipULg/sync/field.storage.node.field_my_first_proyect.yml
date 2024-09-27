@@ -1,0 +1,21 @@
+uuid: bbfaf440-1548-4ca9-a4d2-58e8dc3b72fc
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_my_first_proyect
+field_name: field_my_first_proyect
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

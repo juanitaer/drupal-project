@@ -1,0 +1,19 @@
+uuid: f7f7da7e-8177-411b-b0fe-b641dc0e3797
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_my_first_proyect
+    - node.type.product
+id: node.product.field_my_first_proyect
+field_name: field_my_first_proyect
+entity_type: node
+bundle: product
+label: 'Product ID'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

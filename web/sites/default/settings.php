@@ -883,4 +883,10 @@ $databases['default']['default'] = array (
   'namespace' => 'Drupal\\mysql\\Driver\\Database\\mysql',
   'autoload' => 'core/modules/mysql/src/Driver/Database/mysql/',
 );
-$settings['config_sync_directory'] = 'sites/default/files/config_4GHzzsD4HKtXUwKn7ZBB2uiq_R1pz2Te9oBZQ0iJCHoHGRXE_pB_asOu06D5ArGACFn1DipULg/sync';
+$settings['config_sync_directory'] = '../config/sync';
+
+// Automatically generated include for settings managed by ddev.
+$ddev_settings = dirname(__FILE__) . '/settings.ddev.php';
+if (getenv('IS_DDEV_PROJECT') == 'true' && is_readable($ddev_settings)) {
+  require $ddev_settings;
+}
