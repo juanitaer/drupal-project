@@ -1,0 +1,7 @@
+reports.page:
+  path: '/reports'
+  defaults:
+    _controller: '\Drupal\reports\Controller\ReportsController::content'
+    _title: 'Reports'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,9 @@
+name: 'Reports'
+type: module
+description: 'A custom module to generate reports.'
+core_version_requirement: ^9 || ^10 || ^11
+package: Custom
+version: 1.0
+dependencies:
+  - drupal:node
+
